@@ -38,9 +38,6 @@ nav ul li {
 nav ul li:hover {
   background-color: rgb(68, 86, 251);
   border-radius: 40px;
-}
-
-nav ul li:hover .nav-links {
   color: white;
 }
 
@@ -71,16 +68,51 @@ header p {
   width: 550px;
 }
 
-.social_networks {
+.social-networks {
   border-radius: 25px;
   padding: 10px 30px;
   width: 600px;
 }
 
-.social_networks p {
+.social-networks p {
   width: fit-content;
 }
 
-.social_networks_links a {
+.social-networks-links a {
   font-size: 23px;
+}
+
+.about-me .aptitudes {
+  padding: 20px 30px;
+}
+
+.about-me .aptitudes ul {
+  padding-left: 20px;
+}
+
+.about-me i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.about-me .about-me-text {
+  padding: 150px 30px;
+}
+
+.fa-hashtag {
+  background-color: rgb(34, 176, 125, 0.3);
+  color: rgb(34, 176, 125);
+}
+
+.fa-crop-alt {
+  background-color: rgb(253, 176, 189, 0.3);
+  color: rgb(253, 176, 189);
+}
+
+.about-me .fa-lightbulb {
+  padding: 15px 20px;
+  background-color: rgb(241, 157, 42, 0.3);
+  color: rgb(241, 157, 42);
 }

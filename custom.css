@@ -11,6 +11,22 @@
   background-color: rgb(68, 86, 251);
 }
 
+.pink-btn {
+  background-color: rgb(250, 89, 118);
+  border: none;
+  color: white;
+  border-radius: 60px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+
+.pink-btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(223, 51, 82);
+}
+
 .bc-white {
   background-color: white;
 }
@@ -34,4 +50,8 @@
 
 .full-width {
   width: 100%;
+}
+
+.border-radio {
+  border-radius: 15px;
 }

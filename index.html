@@ -18,10 +18,10 @@
         <i class="fas fa-bars d-sm-none menu-btn c-blue"></i>
         <p class="logo bc-blue bold m-0 rounded-circle">JR</p>
         <ul class="menu">
-            <li><a class="bold c-blue nav-links" href="#intro">Intro</a></li>
-            <li class="ml-sm-4 mt-3"><a class="bold c-blue nav-links" href="#portfolio">Portfolio</a></li>
-            <li class="ml-sm-4 mt-3"><a class="bold c-blue nav-links" href="#about">About</a></li>
-            <li class="ml-sm-4 mt-3"><a class="bold c-blue nav-links" href="#contact">Contact</a></li>
+            <a class="bold c-blue nav-links" href="#intro"><li>Intro</li></a>
+            <a class="bold c-blue nav-links" href="#portfolio"><li class="ml-sm-2 mt-3">Portfolio</li></a>
+            <a class="bold c-blue nav-links" href="#about"><li class="ml-sm-2 mt-3">About</li></a>
+            <a class="bold c-blue nav-links" href="#contact"><li class="ml-sm-2 mt-3">Contact</li></a>
         </ul>  
     </nav>
     <header id="intro" class="position-relative full-width">
@@ -29,14 +29,61 @@
         <h1 class="bold">Johann Rodríguez</h1>
         <h4 class="bold">Software Developer</h4>
         <p class="mt-5 mb-3">Hello I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
-        <div class="social_networks m-auto d-sm-flex justify-content-between bc-white">
+        <div class="social-networks m-auto d-sm-flex justify-content-between bc-white">
             <p class="c-black pt-1 mb-0">Connect with me!</p>
-            <div class="social_networks_links mt-1">
+            <div class="social-networks-links mt-1">
                 <a class="c-blue" href="https://github.com/JohannRodriguez" target="_blank"><i class="fab fa-github"></i></a>
                 <a class="c-blue ml-3" href="https://twitter.com/MrBlackSapce" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a class="c-blue ml-3" href="https://www.linkedin.com/in/johann-alonso-rodriguez-vazquez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </header>
+    <section class="about-me container" id="about">
+        <div class="row">
+            <div class="col container">
+                <div class="row">
+                    <artcile class="col-sm m-1 aptitudes border-radio bc-l-grey">
+                        <i class="fas fa-hashtag"></i>
+                        <h4 class="bold">Languages</h4>
+                        <ul>
+                            <li>Javaascript(ES6)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </artcile>
+                    <artcile class="col-sm m-1 aptitudes border-radio bc-l-grey">
+                        <i class="fas fa-crop-alt"></i>
+                        <h4 class="bold">Frameworks</h4>
+                        <ul>
+                            <li>Ruby on Rails</li>
+                            <li>Bootstrap</li>
+                            <li>Bulma</li>
+                            <li>RSpec</li>
+                            <li>Capybara</li>
+                        </ul>
+                    </artcile>
+                </div>
+                <div class="row">
+                    <artcile class="col m-1 aptitudes border-radio bc-l-grey">
+                        <i class="far fa-lightbulb"></i>
+                        <h4 class="bold">Skills</h4>
+                        <ul>
+                            <li>Github</li>
+                            <li>Bulma</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </artcile>
+                </div>
+            </div>
+            <div class="about-me-text col">
+                <h3 class="bold">About me</h3>
+                <div>
+                    <p class="mb-4">In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+                    <a class="pink-btn" href="./resources/resume.pdf" target="blank">Get my resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
