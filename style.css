@@ -116,3 +116,38 @@ header p {
   background-color: rgb(241, 157, 42, 0.3);
   color: rgb(241, 157, 42);
 }
+
+body .get-in-contact {
+  background: radial-gradient(circle at bottom right, rgba(174, 91, 190, 1) 10%, rgba(174, 91, 210, 1) 20%,  rgba(68, 86, 251, 1) 50%, rgba(68, 86, 230, 1) 80%);
+  max-width: 100%;
+  border-top-left-radius: 80px;
+  padding: 80px 140px;
+  margin-top: 100px;
+}
+
+.get-in-contact textarea {
+  resize: none;
+  overflow: auto;
+  height: 150px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.get-in-contact textarea::placeholder,
+.get-in-contact input::placeholder {
+  color: black;
+}
+
+.name,
+.email {
+  background-color: transparent;
+  border: none;
+  border-bottom: white 2px solid;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  margin-top: 80px;
+}
