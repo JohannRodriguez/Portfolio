@@ -72,8 +72,13 @@ header p {
 }
 
 .social_networks {
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px 30px;
+  width: 600px;
+}
+
+.social_networks p {
+  width: fit-content;
 }
 
 .social_networks_links a {
