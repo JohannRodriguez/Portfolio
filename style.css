@@ -4,15 +4,17 @@ body {
   font-family: 'Raleway', sans-serif !important;
 }
 
+body p {
+  font-size: 19px;
+}
+
 .main-nav a {
- font-size: 20px;
+  font-size: 20px;
 }
 
 .main-nav {
   padding: 10px 50px;
   z-index: 100;
-  position: fixed;
-  width: 100%;
 }
 
 nav i {
@@ -40,4 +42,40 @@ nav ul li:hover {
 
 nav ul li:hover .nav-links {
   color: white;
+}
+
+header {
+  background: radial-gradient(circle at top right, rgba(174, 91, 190, 0.6) 10%, rgba(174, 91, 210, 0.7) 20%,  rgba(68, 86, 251, 0.7) 50%, rgba(68, 86, 230, 0.8) 80%);
+  border-bottom-left-radius: 80px;
+  color: white;
+  padding: 160px 150px 70px;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+header img {
+  top: -13px;
+  left: 0;
+  z-index: -10;
+  height: 200%;
+  width: 140%;
+  transform: rotate(180deg);
+}
+
+header h1 {
+  font-size: 70px;
+  line-height: 60px;
+}
+
+header p {
+  width: 550px;
+}
+
+.social_networks {
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.social_networks_links a {
+  font-size: 23px;
 }
