@@ -4,6 +4,10 @@ body {
   font-family: 'Raleway', sans-serif !important;
 }
 
+.main-nav a {
+ font-size: 20px;
+}
+
 .main-nav {
   padding: 10px 50px;
   z-index: 100;
@@ -21,7 +25,7 @@ nav p {
 
 nav ul {
   margin: 0;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 nav ul li {
