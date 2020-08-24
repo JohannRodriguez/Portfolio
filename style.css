@@ -26,4 +26,14 @@ nav ul {
 
 nav ul li {
   display: inline;
+  padding: 5px 10px;
+}
+
+nav ul li:hover {
+  background-color: rgb(68, 86, 251);
+  border-radius: 40px;
+}
+
+nav ul li:hover .nav-links {
+  color: white;
 }
