@@ -3,7 +3,11 @@ $(document).ready(function() {
     if(window.innerWidth > 575) {
       $(".menu").removeClass('menu-active')
     }
-  });
+  })
+
+  $('.nav-links').click(function() {
+    $(".menu").toggleClass('menu-active');
+  })
   
   $('.menu-btn').click(function() {
     $(".menu").toggleClass('menu-active');
@@ -12,12 +16,15 @@ $(document).ready(function() {
   $(".project-background").click(function(){
     $(".project-specifications").fadeOut(300);
   })
+
   $(".close-project").click(function(){
     $(".project-specifications").fadeOut(300);
   })
 })
 
-function showProject(project){
+
+
+function showProject(project) {
   switch (project) {
       case 1:
           $("#project-1").fadeIn(300)

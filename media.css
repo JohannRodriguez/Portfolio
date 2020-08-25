@@ -160,6 +160,16 @@
 }
 
 @media (max-width: 575px) {
+  .aptitudes {
+    text-align: center;
+  }
+
+  .aptitudes ul {
+    width: fit-content;
+    text-align: left;
+    margin: auto;
+  }
+
   .project-specifications {
     padding: 50px 20px;
   }
