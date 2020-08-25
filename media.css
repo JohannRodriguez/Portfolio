@@ -274,6 +274,14 @@
     left: calc(50% - 114px);
     bottom: 10px;
   }
+
+  .project-links {
+    top: 520px;
+  }
+  
+  .project-text {
+    padding-top: 180px;
+  }
   
   .images-display img {
     width: 70px;
@@ -308,13 +316,6 @@
   .images-display {
     left: calc(50% - 95.5px);
     bottom: 10px;
-  }
-
-  .project-links {
-    top: 520px;
-  }
-  .project-text {
-    padding-top: 180px;
   }
 
   .images-display img {
