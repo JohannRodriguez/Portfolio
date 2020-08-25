@@ -11,8 +11,8 @@
   background-color: rgb(68, 86, 251);
 }
 
-.pink-btn {
-  background-color: rgb(250, 89, 118);
+.pink-btn,
+.blue-btn {
   border: none;
   color: white;
   border-radius: 60px;
@@ -21,10 +21,22 @@
   margin-top: 15px;
 }
 
+.pink-btn {
+  background-color: rgb(250, 89, 118);
+}
+
 .pink-btn:hover {
   color: white;
   text-decoration: none;
   background-color: rgb(223, 51, 82);
+}
+
+.blue-btn {
+  background-color: rgb(68, 86, 251);
+}
+
+.blue-btn:hover {
+  background-color: rgb(32, 52, 233);
 }
 
 .bc-white {

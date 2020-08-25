@@ -38,6 +38,63 @@
             </div>
         </div>
     </header>
+    <section class="portfolio container mb-5" id="portfolio">
+        <h3 class="bold">Some of my work</h3>
+        <div class="row portfolio-row">
+            <article class="col-md border-radio">
+                <div class="project-bg-img"></div>
+                <h4>Project 1</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sed odit quasi vel sint architecto blanditiis voluptatum rem, facilis id doloribus ab voluptates autem</p>
+                    <button class="blue-btn" onclick="showProject(1)">See the project</button>
+                    <div class="project-specifications" id="project-1">
+                        <p class="close-project" id="close-button">x</p>
+                        <div class="project-content">
+                            <div class="project-background"></div>
+                            <div class="project-images" id="project-1-background" style="background-image: url('https://www.flexsin.com/blog/wp-content/uploads/2019/12/Custom-Software-Development.jpg');">
+                                <div class="project-links">
+                                    <a class="pink-btn" href="#">See live <i class="fas fa-external-link-alt"></i></a>
+                                    <a class="pink-btn" href="#">See source <i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="images-display">
+                                    <img onclick="changeImage(11)" id="image_11" style="border: 3px solid blue;" src="https://www.flexsin.com/blog/wp-content/uploads/2019/12/Custom-Software-Development.jpg">
+                                    <img class="second_image" onclick="changeImage(12)" id="image_12" src="https://pbs.twimg.com/media/DoQGxT6W0AAPred.png">
+                                    <img onclick="changeImage(13)" id="image_13" style="border: none;" src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg">
+                                </div>
+                           </div>
+                           <div class="project-text">
+                            <h4>Project 1</h4>
+                            <div class="project-tags">
+                                <p>HTML/CSS</p>
+                                <p>Ruby on Rails</p>
+                                <p>JavaScript</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti est inventore alias nobis aspernatur expedita id deserunt pariatur laborum. Cum laborum voluptatem dolores vero enim fuga fugiat! Exercitationem, quos veritatis.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md border-radio">
+                <div class="project-bg-img"></div>
+                <h4>Project 2</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sed odit quasi vel sint architecto blanditiis voluptatum rem, facilis id doloribus ab voluptates autem</p>
+                    <button class="blue-btn" onclick="showProject(1)">See the project</button>
+                </div>
+            </article>
+        </div>
+    </section>
     <section class="about-me container" id="about">
         <div class="row">
             <div class="col container">
