@@ -213,7 +213,7 @@ header p {
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .project-tags p {
@@ -346,4 +346,12 @@ body .get-in-contact {
   height: 80px; 
   visibility: hidden; 
   pointer-events: none;
+}
+
+footer {
+  padding: 10px 20px;
+}
+
+footer .logo {
+  padding: 10px;
 }

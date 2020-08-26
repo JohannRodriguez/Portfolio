@@ -65,7 +65,7 @@ function changeImage(project_img) {
           imageBorder("image-13", "image-11", "image-12")
           break;
       case 21: 
-          image.style.backgroundImage = "url('https://c8.alamy.com/compes/epf1yw/monja-con-pistola-aislado-en-blanco-epf1yw.jpg')";
+          image.style.backgroundImage = "url(./resources/image_21.jpg)";
           imageBorder("image-21", "image-22", "image-23")
           break;
       case 22: 
