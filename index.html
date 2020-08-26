@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <title>Portfolio of Johann Rodríguez</title>
+</head>
+<body>
+    <nav class="main-nav position-fixed full-width c-white bc-l-grey d-flex justify-content-between">
+        <i class="fas fa-bars d-sm-none menu-btn c-blue"></i>
+        <p class="logo bc-blue bold m-0 rounded-circle">JR</p>
+        <ul class="menu">
+            <a class="bold c-blue nav-links" href="#intro"><li>Intro</li></a>
+            <a class="bold c-blue nav-links" href="#portfolio"><li class="ml-sm-2 mt-3">Portfolio</li></a>
+            <a class="bold c-blue nav-links" href="#about"><li class="ml-sm-2 mt-3">About</li></a>
+            <a class="bold c-blue nav-links" href="#contact"><li class="ml-sm-2 mt-3">Contact</li></a>
+        </ul>  
+    </nav>
+    <header id="intro" class="position-relative full-width">
+        <img class="position-absolute" src="./resources/background.jpg" alt="">
+        <h1 class="bold">Johann Rodríguez</h1>
+        <h4 class="bold">Software Developer</h4>
+        <p class="mt-5 mb-3">Hello I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+        <div class="social-networks m-auto d-sm-flex justify-content-between bc-white">
+            <p class="c-black pt-1 mb-0">Connect with me!</p>
+            <div class="social-networks-links mt-1">
+                <a class="c-blue" href="https://github.com/JohannRodriguez" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="c-blue ml-3" href="https://twitter.com/MrBlackSapce" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="c-blue ml-3" href="https://www.linkedin.com/in/johann-alonso-rodriguez-vazquez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="portfolio container mb-5" id="portfolio">
+        <h3 class="bold">Some of my work</h3>
+        <div class="row portfolio-row">
+            <article class="col-md border-radio">
+                <div class="project-bg-img" style="background-image: url(https://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg);"></div>
+                <h4>RolChart</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                    </div>
+                    <p>An alternative web to experience written rolplay at its full potential</p>
+                    <button onclick="showProject(1)" class="blue-btn">See the project</button>
+                    <div class="project-specifications" id="project-1">
+                        <p class="close-project" id="close-button">x</p>
+                        <div class="project-content">
+                            <div class="project-background"></div>
+                            <div class="project-images" id="project-1-background" style="background-image: url(https://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg);">
+                                <div class="project-links">
+                                    <a class="pink-btn" href="#">See live <i class="fas fa-external-link-alt"></i></a>
+                                    <a class="pink-btn" target="_blank" href="https://github.com/JohannRodriguez/rolcharts">See source <i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="images-display">
+                                    <img onclick="changeImage(11)" id="image-11" style="border: 3px solid rgb(68, 86, 251);" src="https://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg">
+                                    <img class="second_image" onclick="changeImage(12)" id="image-12" src="https://pbs.twimg.com/media/DoQGxT6W0AAPred.png">
+                                    <img onclick="changeImage(13)" id="image-13" style="border: none;" src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg">
+                                </div>
+                           </div>
+                           <div class="project-text">
+                            <h4>Project 1</h4>
+                            <div class="project-tags">
+                                <p>HTML/CSS</p>
+                                <p>Ruby on Rails</p>
+                                <p>JavaScript</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti est inventore alias nobis aspernatur expedita id deserunt pariatur laborum. Cum laborum voluptatem dolores vero enim fuga fugiat! Exercitationem, quos veritatis.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md border-radio">
+                <div class="project-bg-img" style="background-image: url(./resources/image_21.jpg);"></div>
+                <h4>Games reviews</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                    </div>
+                    <p>A site to make review specialized on videogames</p>
+                    <button onclick="showProject(2)" class="blue-btn">See the project</button>
+                    <div class="project-specifications" id="project-2">
+                        <p class="close-project" id="close-button">x</p>
+                        <div class="project-content">
+                            <div class="project-background"></div>
+                            <div class="project-images" id="project-2-background" style="background-image: url(./resources/image_21.jpg);">
+                                <div class="project-links">
+                                    <a class="pink-btn" target="_blank" href="http://rails-capstone.herokuapp.com/">See live <i class="fas fa-external-link-alt"></i></a>
+                                    <a class="pink-btn" target="_blank" href="https://github.com/JohannRodriguez/rails-capstone">See source <i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="images-display">
+                                    <img onclick="changeImage(21)" id="image-21" style="border: 3px solid rgb(68, 86, 251);" src="./resources/image_21.jpg">
+                                    <img class="second_image" onclick="changeImage(22)" id="image-22" src="https://c8.alamy.com/compes/axbexr/fotografia-de-stock-de-un-adolescente-asiatico-con-una-trompeta-a-su-oido-axbexr.jpg">
+                                    <img onclick="changeImage(23)" id="image-23" style="border: none;" src="https://nexter.org/wp-content/uploads/sites/2/2019/08/weird-stock-images-photos-funny-pic46.jpg">
+                                </div>
+                           </div>
+                           <div class="project-text">
+                            <h4>Project 2</h4>
+                            <div class="project-tags">
+                                <p>HTML/CSS</p>
+                                <p>Ruby on Rails</p>
+                                <p>JavaScript</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti est inventore alias nobis aspernatur expedita id deserunt pariatur laborum. Cum laborum voluptatem dolores vero enim fuga fugiat! Exercitationem, quos veritatis.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="row portfolio-row">
+            <article class="col-md border-radio">
+                <div class="project-bg-img" style="background-image: url(https://media.istockphoto.com/photos/indian-engineer-boy-stock-images-picture-id1077336802);"></div>
+                <h4>Project 3</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sed odit quasi vel sint architecto blanditiis voluptatum rem, facilis id doloribus ab voluptates autem</p>
+                    <button onclick="showProject(3)" class="blue-btn">See the project</button>
+                    <div class="project-specifications" id="project-3">
+                        <p class="close-project" id="close-button">x</p>
+                        <div class="project-content">
+                            <div class="project-background"></div>
+                            <div class="project-images" id="project-3-background" style="background-image: url('https://media.istockphoto.com/photos/indian-engineer-boy-stock-images-picture-id1077336802');">
+                                <div class="project-links">
+                                    <a class="pink-btn" href="#">See live <i class="fas fa-external-link-alt"></i></a>
+                                    <a class="pink-btn" href="#">See source <i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="images-display">
+                                    <img onclick="changeImage(31)" id="image-31" style="border: 3px solid rgb(68, 86, 251);" src="https://media.istockphoto.com/photos/indian-engineer-boy-stock-images-picture-id1077336802">
+                                    <img class="second_image" onclick="changeImage(32)" id="image-32" src="https://i.kym-cdn.com/photos/images/original/001/316/888/f81.jpeg">
+                                    <img onclick="changeImage(33)" id="image-33" style="border: none;" src="https://img3.stockfresh.com/files/p/palangsi/m/45/894367_stock-photo-vietnamese-man-meditating-pose.jpg">
+                                </div>
+                           </div>
+                           <div class="project-text">
+                            <h4>Project 3</h4>
+                            <div class="project-tags">
+                                <p>HTML/CSS</p>
+                                <p>Ruby on Rails</p>
+                                <p>JavaScript</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti est inventore alias nobis aspernatur expedita id deserunt pariatur laborum. Cum laborum voluptatem dolores vero enim fuga fugiat! Exercitationem, quos veritatis.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md border-radio">
+                <div class="project-bg-img" style="background-image: url(https://www.brandinginasia.com/wp-content/uploads/2017/03/Japanese-Nurse-Stock-Photos-Branding-in-Asia-1-2.jpg);"></div>
+                <h4>Project 4</h4>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <p>HTML/CSS</p>
+                        <p>Ruby on Rails</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sed odit quasi vel sint architecto blanditiis voluptatum rem, facilis id doloribus ab voluptates autem</p>
+                    <button onclick="showProject(4)" class="blue-btn">See the project</button>
+                    <div class="project-specifications" id="project-4">
+                        <p class="close-project" id="close-button">x</p>
+                        <div class="project-content">
+                            <div class="project-background"></div>
+                            <div class="project-images" id="project-4-background" style="background-image: url('https://www.brandinginasia.com/wp-content/uploads/2017/03/Japanese-Nurse-Stock-Photos-Branding-in-Asia-1-2.jpg');">
+                                <div class="project-links">
+                                    <a class="pink-btn" href="#">See live <i class="fas fa-external-link-alt"></i></a>
+                                    <a class="pink-btn" href="#">See source <i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="images-display">
+                                    <img onclick="changeImage(41)" id="image-41" style="border: 3px solid rgb(68, 86, 251);" src="https://www.brandinginasia.com/wp-content/uploads/2017/03/Japanese-Nurse-Stock-Photos-Branding-in-Asia-1-2.jpg">
+                                    <img class="second_image" onclick="changeImage(42)" id="image-42" src="https://i2.wp.com/www.plethorist.com/wp-content/uploads/2017/07/The-Worst-Stock-Photos-On-The-Internet-2.jpg?ssl=1">
+                                    <img onclick="changeImage(43)" id="image-43" style="border: none;" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-08/2/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-5511-1501688542-1.jpg?resize=990:611?output-quality=auto&output-format=auto&downsize=640:*">
+                                </div>
+                           </div>
+                           <div class="project-text">
+                            <h4>Project 4</h4>
+                            <div class="project-tags">
+                                <p>HTML/CSS</p>
+                                <p>Ruby on Rails</p>
+                                <p>JavaScript</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti est inventore alias nobis aspernatur expedita id deserunt pariatur laborum. Cum laborum voluptatem dolores vero enim fuga fugiat! Exercitationem, quos veritatis.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <div style="display: block; content: ' '; margin-top: -100px; height: 100px; visibility: hidden; pointer-events: none;" id="about"></div>
+    <section class="about-me container">
+        <div class="row">
+            <div class="col container">
+                <div class="row">
+                    <artcile class="col-sm m-1 aptitudes border-radio bc-l-grey">
+                        <i class="fas fa-hashtag"></i>
+                        <h4 class="bold">Languages</h4>
+                        <ul>
+                            <li>Javaascript(ES6)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </artcile>
+                    <artcile class="col-sm m-1 aptitudes border-radio bc-l-grey">
+                        <i class="fas fa-crop-alt"></i>
+                        <h4 class="bold">Frameworks</h4>
+                        <ul>
+                            <li>Ruby on Rails</li>
+                            <li>Bootstrap</li>
+                            <li>Bulma</li>
+                            <li>RSpec</li>
+                            <li>Capybara</li>
+                        </ul>
+                    </artcile>
+                </div>
+                <div class="row">
+                    <artcile class="col m-1 aptitudes border-radio bc-l-grey">
+                        <i class="far fa-lightbulb"></i>
+                        <h4 class="bold">Skills</h4>
+                        <ul>
+                            <li>Github</li>
+                            <li>Bulma</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </artcile>
+                </div>
+            </div>
+            <div class="about-me-text col">
+                <h3 class="bold">About me</h3>
+                <div>
+                    <p class="mb-4">In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+                    <a class="pink-btn" href="./resources/resume.pdf" target="blank">Get my resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container get-in-contact" id="contact">
+        <div class="row">
+            <div class="contact-text col-md">
+                <h3 class="bold c-white">Interested in collabarating?</h3>
+                <p class="c-white">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
+            </div>
+            <div class="col-md">
+                <form class="contact-form" action="https://formspree.io/themrblacksapce@hotmail.com" method="POST">
+                    <input type="text" class="name full-width" id="name" name="name" placeholder="Name*">
+                    <input type="email" class="email full-width" name="email" placeholder="Email*"><br>
+                    <textarea name="message" class="message full-width" placeholder="Message*"></textarea><br>
+                    <div class="status"></div>
+                    <button type="submit" class="submit pink-btn">Get in touch</button>
+                </form> 
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-between bc-l-grey full-width">
+        <p class="logo bc-blue bold m-0 rounded-circle c-white">JR</p>
+        <div class="social-networks-links mt-1">
+            <a class="c-blue" href="https://github.com/JohannRodriguez" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="c-blue ml-3" href="https://twitter.com/MrBlackSapce" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="c-blue ml-3" href="https://www.linkedin.com/in/johann-alonso-rodriguez-vazquez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>  
+    </footer>
+</body>
+</html>
